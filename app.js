@@ -1,8 +1,10 @@
-let ratings = document.querySelectorAll('.circle');
-let btn = document.getElementById('btn');
-let evaluation = document.querySelector('.evaluation');
-let thankyou = document.querySelector('.thankyou');
-let span = document.getElementById('rating');
+// Use const if variable isn't going to change.
+
+const ratings = document.querySelectorAll('.circle');
+const btn = document.getElementById('btn');
+const evaluation = document.querySelector('.evaluation');
+const thankyou = document.querySelector('.thankyou');
+const span = document.getElementById('rating');
 
 for (let i = 0; i <ratings.length; i++) {
     ratings[i].addEventListener('click', () =>{
